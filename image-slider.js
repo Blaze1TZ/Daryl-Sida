@@ -1,6 +1,6 @@
 var imageCounter = 1;
 
-showDiv(imageCounter) ;
+showDiv(imageCounter);
 
 function changeImage(m) {
     showDiv(imageCounter = imageCounter + m);
@@ -16,8 +16,8 @@ function showDiv(n) {
         imageCounter = imageArray.length;
     }
     for (i = 0; i < imageArray.length; i++) {
-        imageArray[i].style.dispaly = "none";
+        imageArray[i].style.display = "none";
     }
-    imageArray[imageCounter-1].style.dispaly = "block";
+    imageArray[imageCounter-1].style.display = "block";
 }
 
